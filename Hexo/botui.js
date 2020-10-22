@@ -5,6 +5,7 @@
     /*波推回复*/
     function bot_ui_ini(){
         var botui=new BotUI("hello-mashiro");botui.message.add({delay:800,content:"Hi, 欢迎来到KyleYan的博客👋"})
+        .then(function(){botui.message.add({delay:1100,content:"本站部分图片来源互联网，如有侵权，请留言告知及时删除"})
         .then(function(){botui.message.add({delay:1100,content:"这里是 KyleYan"})
         .then(function(){botui.message.add({delay:1100,content:"一个95后的老男孩~"})
         .then(function(){
