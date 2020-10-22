@@ -14,7 +14,7 @@
             delay:1600,action:[
             {text:"然后呢？ 😃",value:"sure"},
             {text:"少废话！ 🙄",value:"skip"}]})
-        .then(function(a){"sure"==a.value&&sure();"skip"==a.value&&end()})})})});var sure=function(){botui.message.add({delay:800,content:"竟然真对我感兴趣！ 🌹🌹🌹"})
+        .then(function(a){"sure"==a.value&&sure();"skip"==a.value&&end()})})})})});var sure=function(){botui.message.add({delay:800,content:"竟然真对我感兴趣！ 🌹🌹🌹"})
         .then(function(){secondpart()})},end=function(){botui.message.add({delay:800,content:"![...](https://cdn.jsdelivr.net/gh/yanhuagit/static@latest/Hexo/img/1593866012510.jpg)"})},secondpart=function(){botui.message.add({delay:1500,content:"现从事.NET开发相关工作"})
         .then(function(){botui.message.add({delay:1500,content:"好啦，其实是苦逼的码农，已经搬砖近4年😬"})
         .then(function(){botui.message.add({delay:1200,content:"我们不生产代码，我们只是代码的搬运工"})
