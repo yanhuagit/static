@@ -24,7 +24,7 @@
         .then(function(){botui.message.add({delay:1500,content:"KyleYan是工作中用到的英文名"})
         .then(function(){botui.action.button({delay:1500,action:[{text:"有什么爱好吗？👊",value:"why-cat"}]})
         .then(function(a){fourthpart()})})})},fourthpart=function(){botui.message.add({delay:1e3,content:"喜欢独自旅行🚀&&制作美食🍰"})
-        .then(function(){botui.message.add({delay:1100,content:"换句歌词说，一个人吃饭旅行走走停停~"})
+        .then(function(){botui.message.add({delay:1100,content:"换句歌词说，一个人吃饭旅行到处走走停停~"})
         .then(function(){botui.action.button({delay:1500,action:[{text:"能加个联系方式吗？🙋",value:"why-domain"}]})
         .then(function(a){fifthpart()})})})},fifthpart=function(){botui.message.add({delay:1e3,content:"👀哦哟，被要联系方式了😚，自恋了自恋了~"})
         .then(function(){botui.message.add({delay:1600,content:"当然可以加我啦，不过要备注哟!"})
