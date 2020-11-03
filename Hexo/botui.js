@@ -16,18 +16,18 @@
             {text:"少废话！ 🙄",value:"skip"}]})
         .then(function(a){"sure"==a.value&&sure();"skip"==a.value&&end()})})})})});var sure=function(){botui.message.add({delay:800,content:"竟然真对我感兴趣！ 🌹🌹🌹"})
         .then(function(){secondpart()})},end=function(){botui.message.add({delay:800,content:"![...](https://cdn.jsdelivr.net/gh/yanhuagit/static@latest/Hexo/img/1593866012510.jpg)"})},secondpart=function(){botui.message.add({delay:1500,content:"现从事.NET开发相关工作"})
-        .then(function(){botui.message.add({delay:1500,content:"好啦，其实是苦逼的码农，已经搬砖近4年😬"})
-        .then(function(){botui.message.add({delay:1200,content:"我们不生产代码，我们只是代码的搬运工"})
-        .then(function(){botui.message.add({delay:1500,content:"主要以码代码为主，偶尔打打杂，客串一下产品、前端、设计、测试😐"})
+        .then(function(){botui.message.add({delay:1500,content:"一枚苦逼的码农，已经搬砖近4年😬"})
+        .then(function(){botui.message.add({delay:1200,content:"我们不生产代码，我们只是代码的搬运工😎"})
+        /*.then(function(){botui.message.add({delay:1500,content:"日常主要以码代码为主，偶尔打打杂，客串一下产品、前端、设计、测试😐"})*/
         .then(function(){botui.action.button({delay:1100,action:[{text:"为什么叫KyleYan呢？🤔",value:"why-mashiro"}]})
-        .then(function(a){thirdpart()})})})})})},thirdpart=function(){botui.message.add({delay:1e3,content:"因为懒得想名字"})
+        .then(function(a){thirdpart()})})})})}/*)}*/,thirdpart=function(){botui.message.add({delay:1e3,content:"因为懒得想名字"})
         .then(function(){botui.message.add({delay:1500,content:"KyleYan是工作中用到的英文名"})
         .then(function(){botui.action.button({delay:1500,action:[{text:"有什么爱好吗？👊",value:"why-cat"}]})
         .then(function(a){fourthpart()})})})},fourthpart=function(){botui.message.add({delay:1e3,content:"喜欢独自旅行🚀&&制作美食🍰"})
         .then(function(){botui.message.add({delay:1100,content:"换句歌词说，一个人吃饭旅行到处走走停停~"})
         .then(function(){botui.action.button({delay:1500,action:[{text:"能加个联系方式吗？🙋",value:"why-domain"}]})
         .then(function(a){fifthpart()})})})},fifthpart=function(){botui.message.add({delay:1e3,content:"👀哦哟，被要联系方式了😚，自恋了自恋了~"})
-        .then(function(){botui.message.add({delay:1600,content:"当然可以加我啦，不过要备注哟!"})
+        .then(function(){botui.message.add({delay:1600,content:"当然可以加我啦，侧边栏有联系方式，不过要备注哟!"})
         .then(function(){botui.message.add({delay:1500,content:"也欢迎您留言，我会及时回复的。🍺🍺🍺"})})})}}
     //rebuild by neat 
     bot_ui_ini();
