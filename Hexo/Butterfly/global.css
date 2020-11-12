@@ -75,7 +75,7 @@ body {
   );
 }
 /* 文章卡片，文章列表卡片，右侧info卡片 */
-#aside_content .card-widget,
+#aside_content .card-widget:not(#card-toc),
 #recent-posts > .recent-post-item,
 .layout_post > #page,
 .layout_page > div:first-child:not(.recent-posts),
