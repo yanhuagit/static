@@ -83,7 +83,7 @@ body {
 .read-mode .layout_post > #post {
   background: var(--light_bg_color);
 }
-[data-theme=dark] #aside_content .card-widget, 
+[data-theme=dark] #aside_content .card-widget:not(#card-toc), 
 [data-theme=dark] #recent-posts>.recent-post-item, 
 [data-theme=dark] .layout_page>div:first-child:not(.recent-posts), 
 [data-theme=dark] .layout_post>#page, 
