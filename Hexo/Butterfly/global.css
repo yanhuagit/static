@@ -97,6 +97,15 @@ body {
 }
 #content-inner{--light_bg_color:rgb(255, 255, 255, 0.2);--dark_bg_color:rgba(18, 18, 18, 0.8)}
 
+@media screen and (min-width: 900px) {
+  #aside_content .card-widget#card-toc {
+    background: var(--light_bg_color);
+  }
+  [data-theme=dark] #aside_content .card-widget#card-toc){
+    background-color: var(--dark_bg_color);
+  }
+}
+
 span.inline-tag {
   display: inline;
   padding: 0.2em 0.6em 0.3em;
