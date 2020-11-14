@@ -101,7 +101,7 @@ body {
   #aside_content .card-widget#card-toc {
     background: var(--light_bg_color);
   }
-  [data-theme=dark] #aside_content .card-widget#card-toc){
+  [data-theme=dark] #aside_content .card-widget#card-toc{
     background-color: var(--dark_bg_color);
   }
 }
