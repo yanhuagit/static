@@ -1,5 +1,5 @@
 function addFavorite() {
-  var url = window.location || 'http://www.w3cschool.cn';
+  var url = window.location;
   var title = document.title;
   var ua = navigator.userAgent.toLowerCase();
   if (ua.indexOf("360se") > -1) {
